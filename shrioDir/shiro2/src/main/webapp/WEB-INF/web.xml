@@ -38,6 +38,14 @@
     <url-pattern>/admin</url-pattern>
   </servlet-mapping>
   <servlet>
+    <servlet-name>TeacherServlet</servlet-name>
+    <servlet-class>shiro.demo.servlet.TeacherServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TeacherServlet</servlet-name>
+    <url-pattern>/student</url-pattern>
+  </servlet-mapping>
+  <servlet>
     <servlet-name>LogoutServlet</servlet-name>
     <servlet-class>shiro.demo.servlet.LogoutServlet</servlet-class>
   </servlet>

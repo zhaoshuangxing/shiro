@@ -11,6 +11,11 @@
     <title>login success</title>
 </head>
 <body>
+<ul>
+    <li><a href="/admin">管理中心</a></li>
+    <li><a href="/student">学生管理</a></li>
+    <li><a href="/teacher">老师中心</a></li>
+</ul>
     欢迎你${username},<a href="${pageContext.request.contextPath}/logout">退出</a>
 </body>
 </html>
